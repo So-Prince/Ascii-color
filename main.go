@@ -72,7 +72,7 @@ func GetColor(color string) string {
 		return "\033[36m"
 	case "white":
 		return "\033[37m"
-	case "Magneta":
+	case "Magenta":
 		return "\033[35m"
 	default:
 		return "\033[0m"
